@@ -10,6 +10,7 @@ public class EmployeeMain {
 		EmployeeThread thread1 = new EmployeeThread("Child1", emp1, 201);
 		EmployeeThread thread2 = new EmployeeThread("Child2", emp1, 301);
 
+		System.out.println("This line is added in branch issue_1234");
 		
 		
 		thread1.suspend();
